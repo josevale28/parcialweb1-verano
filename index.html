@@ -1,23 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/css.css">
+  <title>Document</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="images/logo.svg" alt="Logo">
-        <nav class="navegacion">
-            <ul>
-                <li><a href="#">Home+</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Services +</a></li>
-                <li><a href="#">Showcase</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="encabezado">
+    <img class="logo" src="images/logo/logo.svg" alt="Logo">
+    <nav class="navegacion">
+      <ul>
+        <li><a href="#">Home+</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Services +</a></li>
+        <li><a href="#">Showcase</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="icon icon-search"></div>
+    <div class="icon icon-bar"></div>
+  </header>
+
+
+  <section class="portada">
+    <div class="portada-texto">
+      <h1>Seven Company</h1>
+      <p>Our expertise is your growth!</p>
+      <button>Get touch</button>
+      <p>About our company</p>
+    </div>
+    <img src="images/portada/nave-despegando.svg" alt="nave-despegando-portada">
+  </section>
+
+
+  <section class="clientes">
+    <p>Amoung our clients</p>
+    <article class="clientes-logos">
+      <img src="images/clientes/cliente1.png" alt="cliente-utosia">
+      <img src="images/clientes/cliente2.png" alt="cliente-amara">
+      <img src="images/clientes/cliente3.png" alt="cliente-fossa">
+      <img src="images/clientes/cliente4.png" alt="cliente-treva">
+      <img src="images/clientes/cliente5.png" alt="cliente-atica">
+      <img src="images/clientes/cliente6.png" alt="cliente-kyan">
+    </article>
+  </section>
+
+
+  <section class="services">
+    <h2>Services</h2>
+    <p>We love & know what we do!</p>
+    <div class="services-grid">
+      <article class="service-card">
+        <img src="images/service/service1.svg" alt="">
+        <h3>Brand identity</h3>
+        <p>Suspendisse malesuada consectetur nibh, sit amet semper erat 
+          venenatis vitae. Nam a fringilla nulla, sit amet pretium suscipit 
+          ultricies finibus.</p>
+          <a href="#" class="btn">Details & prices</a>
+      </article>
+      <article class="service-card">
+        <img src="images/service/service2.svg" alt="">
+        <h3>Social media marketing</h3>
+        <p>Nulla a velit quis ex ornare rhoncus. Donec imperdiet risus 
+          justo, vel malesuada erat fermentum at. Morbi at laoreet mauris. 
+          Mauris lorem felis, gravida et vehicula congue, tempus vel 
+          justo.</p>
+        <a href="#" class="btn">Details & prices</a>
+      </article>
+      <article class="service-card">
+        <img src="images/service/service3.svg" alt="">
+        <h3>Project management</h3>
+        <p>Nam a fringilla nulla, sit amet pretium libero. Fusce sed 
+          iaculis nunc. Suspendisse suscipit ultricies finibus. Sed 
+          eleifend augue est, quis lobortis lectus ornare.</p>
+        <a href="#" class="btn">Details & prices</a>
+      </article>
+    </div>
+  </section>
+
+
+  <section class="experience">
+    <h2>Trust our experience!</h2>
+    <p>We will help your business</p>
+    <div class="experience-content">
+      <div class="features">
+        <article class="complex">
+          <div class="icon icon-sitemap"></div>
+          <h4>Complex solutions</h4>
+          <p>Congue lorem ipsum dolor ipsum faucibus mi et, scelerisque 
+            mauris. rutrum lorem ipsum dolor. Morbi from ipsum amet - eget 
+            augue bibendum, lorem ipsum faucibus mi et. Aenean dapibus massa 
+            leo</p>
+        </article>
+        <article class="high">
+          <div class="icon icon-rocket"></div>
+          <h4>High quality standards</h4>
+          <p>Congue lorem ipsum dolor- rutrum dapibus massa Leo lorem 
+            ipsum dolor. Morbi from ipsum amet - eget augue bibendum, 
+            lorem ipsum. Aenean dapibus massa leo.</p>
+        </article>
+        <article class="leading">
+          <div class="icon icon-users"></div>
+          <h4>Leading experts</h4>
+          <p>Lorem ipsum dolor. Morbi ipsum faucibus mauris. Aenean 
+            dapibus massa leo. from ipsum - eget augue bibendum, lorem 
+            ipsum faucibus mi et. Aenean dapibus massa.</p>
+        </article>
+        <article class="flexible">
+          <div class="icon icon-sliders"></div>
+          <h4>Flexible prices</h4>
+          <p>Aenean dapibus massa leo! Congue lorem ipsum dolor- rutrum 
+            lorem ipsum dolor. Morbi from ipsum amet - eget augue bibendum, 
+            lorem ipsum faucibus mi et. Aenean lorem ipsum dapibus 
+            massa.</p>
+        </article>
+      </div>
+      <article class="perfil">
+        <img src="images/perfiles/perfil1.webp" alt="">
+        <h4>Jessica Brown</h4>
+        <p class="cargo">Marketing director</p>
+        <a href="#" class="btn">Details</a>
+      </article>
+    </div>
+  </section>
+
+
+  <section class="call-us">
+    <h2 class="call-us-h2">Want to know how we can help your business?</h2>
+    <p class="call-us-p">call-us: <span>+001 234 56 78</span></p>
+    <a href="#" class="btn">Contact us online</a>
+  </section>
+
+
+  <section class="projects">
+    <h2>Completed projects</h2>
+    <p>Our portfolio speaks better than words!</p>
+    <div class="projects-grid">
+      <article class="project-card">
+        <img src="images/proyectos/proyecto1.webp" alt="Code Lab">
+        <div class="project-info">
+          <h3>Code Lab</h3>
+          <p>Ut elit luctus nec ullamcorper</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/proyectos/proyecto2.webp" alt="Atiq Agency">
+        <div class="project-info">
+          <h3>Atiq Agency</h3>
+          <p>Morbi at lacinia mauris dolor amet glavrida ipsum</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/proyectos/proyecto3.webp" alt="utosia">
+        <div class="project-info">
+          <h3>Utosia</h3>
+          <p>Lorem ipsum dolor sit amet sceerisque ipsum</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="images/proyectos/proyecto4.webp" alt="Kyan">
+        <div class="project-info">
+          <h3>Kyan</h3>
+          <p>Nulla a velit quis ex ornare rhoncus</p>
+        </div>
+      </article>
+    </div>
+    <a href="#" class="btn">Discover more projects</a>
+  </section>
+
+
+  <section class="comentarios">
+    <div class="perfil-circular1">
+      <img src="images/perfiles/perfil2.webp" alt="ricaardo-black">
+    </div>
+    <div class="comentario-info">
+      <p class="comentario">
+        Luctus nec ullamcoper mattis. Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+        mattis, pulvinar dapibus leo. 
+      </p>
+      <p class="comentario-name">Ricardo Black</p>
+      <p class="comentario-cargo">Seven Dev - founder</p>
+    </div>
+  </section>
+
+
+  <section class="work">
+    <h2>How we work</h2>
+    <p>Don’t be busy - be productive!</p>
+    <div class="workflow-grid">
+      <div class="work-card">
+        <span class="number-blue">01</span>
+        <h3>Research</h3>
+        <p>Gravida ipsum – augue bibendum, faucibus mi et, scelerisque 
+          mauris. Aenean dapibus massa a sapien hendrerit.
+        </p>
+      </div>
+
+      <div class="work-card">
+        <span class="number-blue">02</span>
+        <h3>Planning</h3>
+        <p>Gravida ipsum – augue bibendum, faucibus mi et, scelerisque 
+          mauris. Aenean dapibus massa a sapien hendrerit.
+        </p>
+      </div>
+
+      <div class="work-img">
+        <img src="images/work/work-img.webp" alt="mujer-planing">
+      </div>
+
+      <div class="work-img">
+        <img src="images/work/work-img2.webp" alt="mujer-planing">
+      </div>
+
+      <div class="work-card">
+        <span class="number-blue">03</span>
+        <h3>Implementation</h3>
+        <p>Glavrida ipsum – augue bibendum, faucibus mi et, scelerisque 
+          mauris. Aenean dapibus massa a sapien hendrerit.
+        </p>
+      </div>
+
+      <div class="work-card">
+        <span class="number-orange">04</span>
+        <h3>Results</h3>
+        <p>Augue bibendum, faucibus mi et, scelerisque mauris. Aenean 
+          dapibus massa a sapien hendrerit. Lorem ipsum dolor!
+        </p>
+      </div>
+    </div>
+
+    <div class="work-text">
+      <h4>If the plan doesn’t work – change the plan, not the goal.</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut 
+        elit tellus.luctus nec ullamcorper mattis, pulvinar dapibus velit 
+        quis ex ornare rhoncus. Donec imperdiet risus justo, vel malesuada 
+        erat fermentum at. Morbi at laoreet mauris!
+      </p>
+    </div>
+  </section>
+
+  <section class="blog">
+    <h2>From our blog</h2>
+    <p class="text-blue-blog">Latest news & events</p>
+    <div class="blog-grid">
+      <article class="blog-card">
+        <img src="images/blog/blog1.webp" alt="">
+        <h3>Vestibulum ante - ipsum primis in faucibus</h3>
+        <span class="date">December 2, 2019</span>
+      </article>
+
+      <article class="blog-card">
+        <img src="images/blog/blog2.webp" alt="">
+        <h3>Lorem ipsum dolor nulla amet</h3>
+        <span class="date">December 2, 2019</span>
+      </article>
+
+      <article class="blog-card">
+        <img src="images/blog/blog3.webp" alt="">
+        <h3>Dolor nulla amet gravida</h3>
+        <span class="date">November 27, 2019</span>
+      </article>
+
+      <article class="blog-card">
+        <img src="images/blog/blog4.jpg" alt="">
+        <h3>Etiam scelerisque - iaculis felis arcu hendrerit</h3>
+        <span class="date">November 3, 2019</span>
+      </article>
+    </div>
+    <a href="#" class="btn">More articles</a>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <img src="images/logo/logo.svg" alt="logo">
+      </div>
+      <div class="company-list">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Showcase</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Demo design system</a></li>
+        </ul>
+      </div>
+      <div class="follow-list">
+        <h4>Follow us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Youtube</a></li>
+        </ul>
+      </div>
+      <div class="connect-list">
+        <h4>Connect</h4>
+        <ul>
+          <li>+001 234 56 78</li>
+          <li>hello@dream-theme.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-final">
+      <p>© Copyright 2022 <a href="#">Dream-Theme</a>. All rights reserved.</p>
+      <div class="links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & conditions</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
